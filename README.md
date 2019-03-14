@@ -11,7 +11,9 @@ simple golang rest api
 
 ### send post request for create new users
 
-```curl POST -H "Content-Type: application/json" http://localhost:8081/users/3 -d '{"id":"3", "firstname":"ivanka", "lastname":"milakova"}'```
+```curl POST -H "Content-Type: application/json" \
+http://localhost:8081/users/3 \
+-d '{"id":"3", "firstname":"ivanka", "lastname":"milakova"}'```
 
 ### send delete request for delete users
 
